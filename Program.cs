@@ -17,19 +17,19 @@ namespace Calculator
 
             if (operacao == "soma")
             {
-                resultado = Soma(n1, n2);
+                resultado = n1 + n2;
             }
             else if (operacao == "divisao")
             {
-                resultado = Divisao(n1, n2);
+                resultado = n1 / n2;
             }
             else if (operacao == "multiplicacao")
             {
-                resultado = Multiplicacao(n1, n2);
+                resultado = n1 * n2;
             }
             else if (operacao == "subtracao")
             {
-                resultado = Subtracao(n1, n2);
+                resultado = n1 - n2;
             }
             Console.WriteLine("A {0} dos dois números é: {1}", operacao, resultado);
 
