@@ -36,24 +36,5 @@ namespace Calculator
 
         }
 
-        static int Soma(int a, int b)
-        {
-            return a + b;
-        }
-
-        static double Divisao(double a, double b)
-        {
-            return a / b;
-        }
-
-        static int Multiplicacao(int a, int b)
-        {
-            return a * b;
-        }
-
-        static int Subtracao(int a, int b)
-        {
-            return a - b;
-        }
     }
 }
